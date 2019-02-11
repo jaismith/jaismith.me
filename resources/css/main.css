@@ -7,6 +7,11 @@ body, html {
     scroll-behavior: smooth;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .front {
     width: 100vw;
     height: 100vh;
@@ -57,6 +62,7 @@ body, html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 1em;
 }
 
 .content .projects {
@@ -104,6 +110,10 @@ body, html {
     background-blend-mode: multiply;
 }
 
+.box:hover {
+    background-color: rgba(0, 0, 0, 0.40);
+}
+
 .projects .box {
     max-width: 40%;
 }
@@ -130,4 +140,14 @@ body, html {
 
 .box#dmbc {
     background-image: url("../images/dmbc.jpg");
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > a {
+    padding: 2em;
 }
