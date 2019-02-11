@@ -27,6 +27,7 @@ a {
 }
 
 .front .container {
+    max-width: 75vw;
     align-self: center;
     display: flex;
     justify-content: center;
