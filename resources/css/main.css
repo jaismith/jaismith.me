@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body, html {
+    margin: 0px;
+    font-family: 'Open Sans', serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.front {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../images/baker.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.front .container {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.front #headshot {
+    min-width: 10em;
+    width: 20vw;
+    height: auto;
+}
+
+.front #arrow {
+    align-self: flex-end;
+    bottom: 2.5vh;
+    width: 5vw;
+}
+
+#name {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+#blurb {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content .projects {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.content .activities {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    min-width: 15em;
+    flex-grow: 1;
+    margin: 1em;
+    text-align: center;
+    height: 100%;
+    border-radius: 10px;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.65);
+    background-blend-mode: multiply;
+}
+
+.projects .box {
+    max-width: 40%;
+}
+
+.activities .box {
+    max-width: 30%;
+}
+
+.box#timetable {
+    background-image: url("../images/timetable.png");
+}
+
+.box#can {
+    background-image: url("../images/can.png");
+}
+
+.box#dfr {
+    background-image: url("../images/dfr.jpg");
+}
+
+.box#ledyard {
+    background-image: url("../images/ledyard.jpg");
+}
+
+.box#dmbc {
+    background-image: url("../images/dmbc.jpg");
+}
